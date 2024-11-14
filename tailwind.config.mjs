@@ -49,7 +49,7 @@ export default {
         50: "rgba(255, 252, 231, 1)",
       },
 
-      neutrals: {
+      neutral: {
         900: "rgba(17, 16, 14, 1)",
         800: "rgba(30, 29, 26, 1)",
         700: "rgba(47, 45, 40, 1)",
@@ -67,9 +67,24 @@ export default {
     },
 
     /* Tilføj din egen spacing nedenfor */
-    // spacing: {
-    //     'm': '40px',
-    // },
+    spacing: {
+      xxs: "8px",
+      xs: "16px",
+      s: "24px",
+      sm: "32px",
+      m: "40px",
+      ml: "48px",
+      lg: "64px",
+      xl: "80px",
+      "2xl": "96px",
+      "3xl": "112px",
+      "4xl": "128px",
+      "5xl": "160px",
+      "6xl": "208px",
+      "7xl": "320px",
+      "8xl": "360px",
+      "9xl": "424px",
+    },
 
     /* Tilføj fonte herunder - husk også at tilføje webfonte i head-sektionen i MainLayout  */
     // fontFamily: {
